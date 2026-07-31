@@ -49,9 +49,3 @@ Saved test-set metrics from the executed notebook:
 - ANN regressor: RMSE `117,529.84`, MAE `66,968.70`, R2 `0.8939`
 
 The ANN was the strongest of the three models in the saved run.
-
-## Limitations
-
-- This is still a tabular model on one county and one time window.
-- Sale month and sale year only capture a small part of market drift.
-- The model is predictive, not causal, so it should not be treated like an appraisal tool.
